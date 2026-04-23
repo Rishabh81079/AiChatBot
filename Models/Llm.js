@@ -14,7 +14,9 @@ async function main(msg) {
     model: 'gemini-2.5-flash',
     contents: msg,
   });
+
   return response.text;
+  
 }
 
 module.exports = main
